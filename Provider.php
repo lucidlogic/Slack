@@ -16,7 +16,7 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['identity.basic', 'identity.email', 'identity.team', 'identity.avatar'];
+    protected $scopes = [];
 
     /**
      * The separating character for the requested scopes.
